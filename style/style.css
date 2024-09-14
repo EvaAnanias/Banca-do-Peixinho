@@ -247,8 +247,13 @@ a {
 
 @media (max-width:660px) {
     .apresentacao {
+        width: auto;
         margin-top: 23%;
         flex-direction: column-reverse;
+    }
+
+    .menu-container {
+        padding: 0;
     }
 
     .menu-horizontal.active {
