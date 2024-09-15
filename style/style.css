@@ -219,6 +219,7 @@ main {
 footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 2%;
     color: var(--cor-terciaria);
     background-color: var(--cor-primaria);
@@ -306,8 +307,12 @@ a {
         font-size: 1.1rem;
     }
 
-    .footer-p, .footer-desenvolvedora {
-        font-size: 0.7rem;
+    .footer-p {
+        font-size: 0.6rem;
         padding: 2%;
+    }
+
+    .footer-desenvolvedora-p {
+        font-size: 0.6rem;
     }
 }
