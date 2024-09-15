@@ -301,12 +301,13 @@ a {
         width: 80%;
     }
 
-    .footer-p, .footer-desenvolvedora {
-        font-size: 0.7rem;
-    }
-
     .apresentacao-h2-continue-lendo {
         width: 80%;
         font-size: 1.1rem;
+    }
+
+    .footer-p, .footer-desenvolvedora {
+        font-size: 0.7rem;
+        padding: 2%;
     }
 }
