@@ -283,3 +283,30 @@ a {
         width: 60%;
     }
 }
+
+@media (max-width:450px) {
+    .menu-horizontal {
+        margin-top: 50%;
+    }
+
+    .apresentacao-container {
+        width: 80%;
+    }
+
+    .apresentacao-aquario-img {
+        width: 80%;
+    }
+
+    .apresentacao-dicas-container {
+        width: 80%;
+    }
+
+    .footer-p, .footer-desenvolvedora {
+        font-size: 0.7rem;
+    }
+
+    .apresentacao-h2-continue-lendo {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+}
