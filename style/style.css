@@ -55,15 +55,6 @@
 }
 
 .menu-horizontal li a {
-    color: var(--cor-font-white);
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 10px 15px;
-    display: block;
-    transition: background-color 0.3s;
-}
-
-.menu-horizontal li a {
     color: var(--cor-terciaria);
     text-decoration: none;
     font-size: 1.1rem;
