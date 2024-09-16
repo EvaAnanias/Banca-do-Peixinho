@@ -235,7 +235,7 @@ a {
     color: var(--cor-terciaria);
 }
 
-@media (max-width:920px) {
+@media (max-width: 920px) {
     
     .apresentacao {
         margin-top: 12%;
@@ -246,11 +246,19 @@ a {
     }
 }
 
-@media (max-width:660px) {
+@media (max-width: 660px) {
     .apresentacao {
         width: auto;
-        margin-top: 23%;
+        margin-top: 20%;
         flex-direction: column-reverse;
+    }
+
+    .apresentacao-container {
+        width: 80%;
+    }
+
+    .apresentacao-aquario-img {
+        width: 80%;
     }
 
     .menu-container {
@@ -285,9 +293,13 @@ a {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
     .menu-horizontal {
         margin-top: 50%;
+    }
+
+    .apresentacao {
+        margin-top: 23%;
     }
 
     .apresentacao-container {
@@ -314,5 +326,16 @@ a {
 
     .footer-desenvolvedora-p {
         font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .menu-horizontal {
+        margin-top: 60%;
+    }
+
+    .apresentacao {
+        margin-top: 30%;
     }
 }
